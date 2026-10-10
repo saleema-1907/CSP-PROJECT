@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#159a50"><title>Sign Up — EcoGreen Community</title><link rel="stylesheet" href="styles.css"><script src="auth.js" defer></script></head>
+<body class="auth-page">
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">♧</span><span>EcoGreen</span></a><a class="button button-small" href="login.html">Login</a></header>
+  <main class="auth-wrap auth-wrap-wide"><section class="auth-card"><div class="auth-mark">♧</div><p class="eyebrow">JOIN YOUR COMMUNITY</p><h1>Create your account</h1><p class="auth-subtitle">Start planting and growing greener, together.</p>
+<form id="signup-form">
+      <label for="signup-name">Full name</label><input id="signup-name" name="name" type="text" autocomplete="name" placeholder="Your name" minlength="2" required>
+      <label for="signup-email">Email</label><input id="signup-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+      <label for="signup-phone">Phone number <span class="optional">(optional)</span></label><input id="signup-phone" name="phone" type="tel" autocomplete="tel" placeholder="Your phone number">
+      <label for="signup-location">Location <span class="optional">(optional)</span></label><input id="signup-location" name="location" type="text" autocomplete="address-level2" placeholder="City or community">
+      <label for="signup-password">Password</label><div class="password-wrap"><input id="signup-password" name="password" type="password" autocomplete="new-password" placeholder="At least 10 characters" minlength="10" required><button class="password-toggle" type="button" data-toggle="signup-password" aria-label="Show password">Show</button></div>
+      <label for="signup-confirm">Confirm password</label><input id="signup-confirm" name="confirm" type="password" autocomplete="new-password" placeholder="Re-enter your password" required>
+      <p class="password-hint">Use at least 10 characters, including a letter and a number.</p>
+      <p class="form-message" id="signup-message" role="status" aria-live="polite"></p><button class="button auth-submit" type="submit">Create Account</button>
+    </form>
+    <p class="auth-switch">Already have an account? <a href="login.html">Sign in</a></p>
+    <p class="demo-note">Local demo only: account data stays in this browser. Do not use a password you use elsewhere.</p>
+  </section><a class="back-home" href="index.html">← Back to EcoGreen</a></main>
+</body></html>
+
